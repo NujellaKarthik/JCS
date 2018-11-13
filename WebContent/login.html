@@ -1,0 +1,84 @@
+<!DOCTYPE html >
+<html>
+   <head>
+      <!-- Add Material CSS, replace Bootstrap CSS -->
+      <link href="css/material.css" rel="stylesheet">
+      <link href="css/toolbar.css" rel="stylesheet">
+      <link href="css/score-cards.css" rel="stylesheet">
+      <link href="css/maptest.css" rel="stylesheet">
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <title>Login</title>
+   </head>
+   <body>
+      <style>
+         body{
+         background-color: #E1E7EA;
+         padding-top: 104px;
+         overflow-x: hidden;
+         }
+         .navbar-fixed-top {
+         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14), 0 4px 5px 0 rgba(0, 0, 0, 0.12), 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+         position: fixed;
+         right: 0;
+         left: 0;
+         z-index: 40;
+         }
+         .main-bg{
+         background-color: #E1E7EA;
+         }
+         .h {
+         font-size: 1em;
+         }
+         .navbar-brand {
+         font-size: 1.25rem;
+         font-weight: 500;
+         letter-spacing: 0.02em;
+         line-height: 1.4;
+         -ms-flex-align: center;
+         align-items: center;
+         color: inherit;
+         display: -ms-inline-flexbox;
+         display: inline-flex;
+         height: 2.25rem;
+         position: relative;
+         white-space: nowrap;
+         }
+      </style>
+      <div class=" navbar-fixed-top">
+         <nav class="navbar main-navbar navbar-expand-lg navbar-dark bg-primary d-flex">
+            <a class="navbar-brand" href="#">
+               <img src="images/logos/jio_white_text.png" width="24" height="24" class="d-inline-block align-top mr-2 rounded" alt="">
+               <div>
+                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                  JCS
+               </div>
+            </a>
+            <div>
+               <ul class="navbar-nav mr-auto">
+               </ul>
+            </div>
+            <img src="images/buttons/user.png" width="24" height="24" class="d-inline-block align-top  ml-auto " alt="">
+         </nav>
+         <div class="d-flex align-items-stretch toolbar">
+            <div class="mr-auto p-2 bd-highlight">
+               <form action="login.jsp" method="post">
+                  <div class="form-group h">
+                     <span style= "color:blue; font-weight:bold"> User name :</span>
+                     <input type="text" name="usr" />
+                  </div>
+                  <div class="form-group h">
+                     <span style= "color:blue; font-weight:bold">Password :</span>
+                     <input type="password" name="pwd" />
+                  </div>
+                  <div class="form-group h">
+                     <input type="submit" value="Submit Query" />
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
